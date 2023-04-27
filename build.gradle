@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+version '1.0.3'
+
+dependencies {
+    implementation 'net.portswigger.burp.extender:burp-extender-api:2.3'
+}
+
+sourceCompatibility = 1.17
+targetCompatibility = 1.17
+project.archivesBaseName = "cmar"
