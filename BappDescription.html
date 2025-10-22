@@ -1,0 +1,14 @@
+<p>An extension allowing you to create match and replace operations that execute only when a condition is matched (or not matched). The condition can be matched against the request Header/Body/All, or the response Header/Body/All. If the condition is matched, you can apply a match and replace rule against the specified area. You can create a condition that matches a request, then performs a match and replace in the response.</p>
+
+<p>CMARs work in a chain, updating the request/response then moving to the next rule. If you have a CMAR that changes a request, and the subsequent rule matches a condition that was only present before the match and replace, it will not fire.</p>
+
+<p>Conditions support regex and literal matching, as does the match and replace function.</p>
+
+<p>Extension uses:</p>
+
+<ul>
+	<li>Changing caching on some files</li>
+	<li>Adding request headers (such as Authorization) to only some requests</li>
+	<li>Alter a common string in the response for only some pages/targets.</li>
+	<li>Change the target host or port a request is sent to</li>
+</ul>

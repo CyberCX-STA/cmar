@@ -1,9 +1,4 @@
 /out/*
 .idea/*
-gradlew
-gradlew.bat
-gradle/*
 .gradle/*
 build/*
-!build/libs
-!build/libs/*

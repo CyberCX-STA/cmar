@@ -1,0 +1,13 @@
+Uuid: 5037418cbd064e439839760567dc12d0
+ExtensionType: 1
+Name: Conditional Match and Replace
+RepoName: conditional-match-and-replace
+ScreenVersion: 1.0.3
+SerialVersion: 2
+MinPlatformVersion: 0
+ProOnly: False
+Author: Daniel Jensen, CyberCX STA
+ShortDescription: Allows users to create match and replace operations that execute only when a condition is matched (or not matched).
+EntryPoint: build/libs/cmar-1.0.3.jar
+BuildCommand: ./gradlew jar
+SupportedProducts: Pro, Community
